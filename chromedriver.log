@@ -1,0 +1,86 @@
+[1784521684.264][INFO]: Starting ChromeDriver 151.0.7922.34 (782af9cb30a53f54487e5d2e44738645a8ec457c-refs/branch-heads/7922@{#1230}) on port 37803
+[1784521684.264][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1784521684.269][INFO]: ChromeDriver was started successfully on port 37803
+[1784521684.275][INFO]: [ceb00f5fa2fa29ad8724e4279f780f6a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--remote-debugging-port=9222", "--window-size=1920,1080", "--disable-software-rasterizer", "--disable-extensions" ],
+            "binary": "/root/.cache/selenium/chrome/linux64/151.0.7922.34/chrome",
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1784521684.276][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1784521684.276][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1784521684.276][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1784521684.276][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1784521684.276][INFO]: Launching chrome: /root/.cache/selenium/chrome/linux64/151.0.7922.34/chrome --allow-pre-commit-input --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=IgnoreDuplicateNavs,Prewarm --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-software-rasterizer --disable-sync --enable-automation --enable-logging=stderr --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=9222 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/org.chromium.Chromium.scoped_dir.4PNQhX --window-size=1920,1080 data:,
+/root/.cache/selenium/chrome/linux64/151.0.7922.34/chrome: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory
+[1784521685.373][INFO]: [ceb00f5fa2fa29ad8724e4279f780f6a] RESPONSE InitSession ERROR session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.
